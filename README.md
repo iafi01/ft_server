@@ -38,14 +38,17 @@ apt-get -y install php7.3-fpm php7.3-common php7.3-mysql php7.3-gmp php7.3-curl 
  vim default
  <hr>
  server {
-        listen 80 default_server;
-        listen [::]:80 default_server;
-        listen 443 ssl default_server;
-        listen [::]:443 ssl default_server;
-        ssl_certificate /etc/ssl/certs/nginx-selfsigned.crt;
-        ssl_certificate_key /etc/ssl/private/nginx-selfsigned.key;
-        ssl_session_tickets off;
-//senza chiudere la parentesi
+      listen 80 default_server;
+      listen [::]:80 default_server;
+      return 301 https://$host$request_uri;
+}
+server{
+      listen 443 ssl default_server;
+      listen [::]:443 ssl default_server;
+      ssl_certificate /etc/ssl/certs/nginx-selfsigned.crt;
+       ssl_certificate_key /etc/ssl/private/nginx-selfsigned.key;
+       ssl_session_tickets off;
+      //senza chiudere la parentesi
 <hr>
 nginx -t
 <hr>
@@ -58,6 +61,13 @@ wget https://files.phpmyadmin.net/phpMyAdmin/4.9.0.1/phpMyAdmin-4.9.0.1-all-lang
 <hr>
 tar -xf phpMyAdmin-4.9.0.1-all-languages.tar.gz
 <hr>
+decommenta queste due righe
+location ~ \.php$ {
+		include snippets/fastcgi-php.conf;
+		fastcgi_pass unix:/run/php/php7.3-fpm.sock;
+	}
+
+
  </ul>
  </body>
  </html>

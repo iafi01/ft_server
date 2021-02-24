@@ -4,7 +4,7 @@
 <body>
 <h2>FT_SERVER</h2>DEL CACHE: docker system prune -a <br>
 
-br><h4>Reloadda sempre i plug-in che modifichi (mysql, php7.3-fpm, nginx)</h4><br>
+<br><h4>Reloadda sempre i plug-in che modifichi (mysql, php7.3-fpm, nginx)</h4><br>
 
 docker run -p 80:80 -p 443:443 -it --name ciao debian:buster
 <hr>

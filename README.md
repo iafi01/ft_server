@@ -89,5 +89,11 @@ cd wordpress
 cp wp-config-sample.php wp-config.php
 <hr>
 vim wp-config.php
+<hr>
+MODIFICA:
+define( 'DB_NAME', 'liafigli' );<br>
+define( 'DB_USER', 'liafigli' );<br>
+define( 'DB_PASSWORD', 'liafigli' );<br>
+define( 'DB_HOST', 'localhost' );<br>
  </body>
  </html>

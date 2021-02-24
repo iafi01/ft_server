@@ -12,8 +12,6 @@ apt-get update
 <hr>
 
 apt install nginx -y
-
-   Y
 <hr>
 
 service nginx start

@@ -38,16 +38,17 @@ apt-get -y install php7.3-fpm php7.3-common php7.3-mysql php7.3-gmp php7.3-curl 
  vim default
  <hr>
  server {<br>
-      listen 80 default_server;<br>
-      listen [::]:80 default_server;<br>
-      return 301 https://$host$request_uri;<br>
+  &ensp;    listen 80 default_server;<br>
+  &ensp;    listen [::]:80 default_server;<br>
+   &ensp;   return 301 https://$host$request_uri;<br>
 }
+<br>
 server{ <br>
-      listen 443 ssl default_server;<br>
-      listen [::]:443 ssl default_server;<br>
-      ssl_certificate /etc/ssl/certs/nginx-selfsigned.crt;<br>
-       ssl_certificate_key /etc/ssl/private/nginx-selfsigned.key;<br>
-       ssl_session_tickets off;<br>
+ &ensp;     listen 443 ssl default_server;<br>
+  &ensp;    listen [::]:443 ssl default_server;<br>
+  &ensp;    ssl_certificate /etc/ssl/certs/nginx-selfsigned.crt;<br>
+  &ensp;     ssl_certificate_key /etc/ssl/private/nginx-selfsigned.key;<br>
+ &ensp;      ssl_session_tickets off;<br>
       //senza chiudere la parentesi<br>
 <hr>
 nginx -t

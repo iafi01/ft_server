@@ -3,7 +3,7 @@
    <head></head>
 <body>
 <h2>FT_SERVER</h2>
-<ul>
+<ul padding="10px">
 <li>docker run -p 80:80 -p 443:443 -it --name ciao debian:buster</li>
 <li>apt-get update</li>
 <li>apt install nginx</li>

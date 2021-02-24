@@ -45,6 +45,14 @@ apt-get -y install php7.3-fpm php7.3-common php7.3-mysql php7.3-gmp php7.3-curl 
         ssl_certificate_key /etc/ssl/private/nginx-selfsigned.key;
         ssl_session_tickets off;
 //senza chiudere la parentesi
+<hr>
+nginx -t
+<hr>
+service nginx reload
+<hr>
+https://files.phpmyadmin.net/phpMyAdmin/4.9.0.1/phpMyAdmin-4.9.0.1-all-languages.tar.gz.
+<hr>
+
  </ul>
  </body>
  </html>

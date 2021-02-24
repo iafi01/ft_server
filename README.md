@@ -14,7 +14,6 @@ apt install nginx
    Y
 <hr>
 </li>
-<hr>
 <li>service nginx start</li>
 <hr>
 <li>service --status-all</li>
@@ -34,7 +33,6 @@ apt install nginx
     
     IT, ROMA, ROMA, 42ROMALUISS, 42ROMALUISS, liafigli, lorenzoiafigliola@gmail.com
     
-</li>
 <hr>
  </ul>
  </body>

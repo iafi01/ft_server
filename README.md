@@ -10,7 +10,8 @@ apt-get update
 <hr>
 <li>
 apt install nginx
-Y
+</li>
+   Y
 <hr>
 </li>
 <hr>

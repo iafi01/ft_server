@@ -79,6 +79,7 @@ Vai su localhost/pma
 <hr>
 mysqladmin -u root password 'your_password'
 <hr>
+accedi con 'root' e 'your_password
  </ul>
  </body>
  </html>

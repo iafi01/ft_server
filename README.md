@@ -10,7 +10,7 @@ docker run -p 80:80 -p 443:443 -it --name ciao debian:buster
 apt-get update
 <hr>
 
-apt install nginx
+apt install nginx -y
 
    Y
 <hr>

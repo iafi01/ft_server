@@ -6,11 +6,11 @@
 <ul padding="10px">
 <li>docker run -p 80:80 -p 443:443 -it --name ciao debian:buster</li>
 <hr>
-<li>apt-get update</li>
+apt-get update
 <hr>
 <li>
 apt install nginx
-<ul><li>Y</li></ul> 
+Y
 <hr>
 </li>
 <hr>
@@ -30,11 +30,9 @@ apt install nginx
  openssl req -x509 -nodes -days 3650 -newkey rsa:2048 -keyout /etc/ssl/private/nginx-selfsigned.key -out /etc/ssl/certs/nginx-selfsigned.crt
 </li>
 
-    <ul>
-    <li>
+    
     IT, ROMA, ROMA, 42ROMALUISS, 42ROMALUISS, liafigli, lorenzoiafigliola@gmail.com
-    </li>
-    </ul>
+    
 </li>
 <hr>
  </ul>

@@ -84,5 +84,10 @@ accedi con 'root' e 'your_password
 wget https://wordpress.org/latest.tar.gz
 <hr>
 tar -xvzf latest.tar.gz
+<hr>
+cd wordpress
+cp wp-config-sample.php wp-config.php
+<hr>
+vim wp-config.php
  </body>
  </html>

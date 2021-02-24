@@ -2,7 +2,7 @@
 <html>
    <head></head>
 <body>
-<h2>FT_SERVER</h2>DEL CACHE: docker system prune -a
+<h2>FT_SERVER</h2>DEL CACHE: docker system prune -a <br>
 
 
 docker run -p 80:80 -p 443:443 -it --name ciao debian:buster

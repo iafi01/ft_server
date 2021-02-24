@@ -72,6 +72,13 @@ location ~ \.php$ {<br>
 <br>
 <hr>
 Cancella index.nginx-debian.html dal default
+<hr>
+mv phpMyAdmin-4.9.0.1-all-languages/ pma
+<hr>
+Vai su localhost/pma
+<hr>
+mysqladmin -u root password 'your_password'
+<hr>
  </ul>
  </body>
  </html>

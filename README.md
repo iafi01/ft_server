@@ -80,6 +80,9 @@ Vai su localhost/pma
 mysqladmin -u root password 'your_password'
 <hr>
 accedi con 'root' e 'your_password
- </ul>
+<hr>
+wget https://wordpress.org/latest.tar.gz
+<hr>
+tar -xvzf latest.tar.gz
  </body>
  </html>

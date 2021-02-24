@@ -50,7 +50,8 @@ nginx -t
 <hr>
 service nginx reload
 <hr>
-https://files.phpmyadmin.net/phpMyAdmin/4.9.0.1/phpMyAdmin-4.9.0.1-all-languages.tar.gz.
+apt install wget
+wget https://files.phpmyadmin.net/phpMyAdmin/4.9.0.1/phpMyAdmin-4.9.0.1-all-languages.tar.gz.
 <hr>
 
  </ul>

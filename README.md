@@ -18,7 +18,7 @@ service nginx start
 <hr>
 service --status-all
 <hr>
-apt install mariadb-server -y
+apt install mariadb-server mariadb-client
 <hr>
 service mysql start
 <hr>

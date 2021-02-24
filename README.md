@@ -67,9 +67,10 @@ tar -xf phpMyAdmin-4.9.0.1-all-languages.tar.gz
 location ~ \.php$ {<br>
 &ensp;	include snippets/fastcgi-php.conf;<br>
 &ensp;	fastcgi_pass unix:/run/php/php7.3-fpm.sock;<br>
-	}<br>
-
-
+	}
+<br>
+<hr>
+Cancella index.nginx-debian.html dal default
  </ul>
  </body>
  </html>

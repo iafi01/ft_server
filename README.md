@@ -61,7 +61,7 @@ apt install wget
 cd ../../../var/www/html <br>
 wget https://files.phpmyadmin.net/phpMyAdmin/4.9.0.1/phpMyAdmin-4.9.0.1-all-languages.tar.gz
 <hr>
-tar -xf phpMyAdmin-4.9.0.1-all-languages.tar.gz
+tar -xvzf phpMyAdmin-4.9.0.1-all-languages.tar.gz
 <hr>
 
 //decommenta queste due righe<br><br>

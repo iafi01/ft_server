@@ -3,20 +3,20 @@
    <head></head>
 <body>
 <h2>FT_SERVER</h2>
-<ul padding="10px">
-<li>docker run -p 80:80 -p 443:443 -it --name ciao debian:buster</li>
+
+docker run -p 80:80 -p 443:443 -it --name ciao debian:buster
 <hr>
 apt-get update
 <hr>
-<li>
+
 apt install nginx
-</li>
+
    Y
 <hr>
-</li>
-<li>service nginx start</li>
+
+service nginx start
 <hr>
-<li>service --status-all</li>
+service --status-all
 <hr>
 <li>apt install mariadb-server -y</li>
 <hr>

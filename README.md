@@ -95,5 +95,8 @@ define( 'DB_NAME', 'liafigli' );<br>
 define( 'DB_USER', 'liafigli' );<br>
 define( 'DB_PASSWORD', 'liafigli' );<br>
 define( 'DB_HOST', 'localhost' );<br>
+<hr>
+Setta wordpress come predefinita
+chown -R www-data:www-data /var/www/html/wordpress
  </body>
  </html>

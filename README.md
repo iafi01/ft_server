@@ -63,10 +63,10 @@ wget https://files.phpmyadmin.net/phpMyAdmin/4.9.0.1/phpMyAdmin-4.9.0.1-all-lang
 tar -xf phpMyAdmin-4.9.0.1-all-languages.tar.gz
 <hr>
 decommenta queste due righe
-location ~ \.php$ {
-		include snippets/fastcgi-php.conf;
-		fastcgi_pass unix:/run/php/php7.3-fpm.sock;
-	}
+location ~ \.php$ {<br>
+&ensp;	include snippets/fastcgi-php.conf;<br>
+&ensp;	fastcgi_pass unix:/run/php/php7.3-fpm.sock;<br>
+	}<br>
 
 
  </ul>

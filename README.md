@@ -52,7 +52,7 @@ server{ <br>
 <hr>
 nginx -t
 <hr>
-service nginx reload
+service nginx restart
 <hr>
 apt install wget
 <hr>

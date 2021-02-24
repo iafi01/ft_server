@@ -1,5 +1,7 @@
 # ft_server
-
+<html>
+   <head></head>
+<body>
 <h2>FT_SERVER</h2>
 
 <div>
@@ -22,3 +24,5 @@
     return risultato;
  }
  </script>
+ </body>
+ </html>

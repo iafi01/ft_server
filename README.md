@@ -2,7 +2,7 @@
 <html>
    <head></head>
 <body>
-<h2>FT_SERVER</h2>DEL CACHE: docker system prune -a -y<br>
+<h2>FT_SERVER</h2>DEL CACHE: docker system prune -fa<br>
 
 <br><h4>Reloadda sempre i plug-in che modifichi (mysql, php7.3-fpm, nginx)</h4><br>
 

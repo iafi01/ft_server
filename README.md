@@ -26,7 +26,8 @@ service mysql status || mysqladmin version
 <hr>
 apt-get -y install php7.3-fpm php7.3-common php7.3-mysql php7.3-gmp php7.3-curl php7.3-intl php7.3-mbstring php7.3-xmlrpc php7.3-gd php7.3-xml php7.3-cli php7.3-zip php7.3-soap php7.3-imap
  <hr>
-  openssl req -x509 -nodes -days 3650 -newkey rsa:2048 -keyout /etc/ssl/private/nginx-selfsigned.key -out /etc/ssl/certs/nginx-selfsigned.crt
+  openssl req -x509 -nodes -days 3650 -newkey rsa:2048 -keyout /etc/ssl/private/nginx-selfsigned.key -out /etc/ssl/certs/nginx-selfsigned.crt -subj "/C=IT/ST=Roma/L=Roma/O=42ROMALUISS/OU=liafigli/CN=42roma"
+
   
     IT, ROMA, ROMA, 42ROMALUISS, 42ROMALUISS, liafigli, lorenzoiafigliola@gmail.com
 <hr>

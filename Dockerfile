@@ -9,6 +9,6 @@ RUN apt-get -y install php7.3-fpm php7.3-common php7.3-mysql php7.3-gmp php7.3-c
 
 COPY ./srcs/make_server.sh ./
 COPY srcs/default etc/nginx/sites-available/
-COPY srcs/wp-config.php var/www/html/wordpress
+COPY srcs/wp-config.php tmp/
 
 CMD bash make_server.sh

@@ -84,7 +84,7 @@ wget https://wordpress.org/latest.tar.gz
 <hr>
 tar -xvzf latest.tar.gz
 <hr>
-cd wordpress
+cd wordpress <br>
 cp wp-config-sample.php wp-config.php
 <hr>
 vim wp-config.php

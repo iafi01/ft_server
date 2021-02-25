@@ -109,6 +109,6 @@ define( 'DB_HOST', 'localhost' );<br>
 <hr>
 Setta wordpress come predefinita
 chown -R www-data:www-data /var/www/html/wordpress
-<hr style="background-color:red;"><hr style="background-color:red;">
+<hr style="color:red;"><hr style="color:red;">
  </body>
  </html>

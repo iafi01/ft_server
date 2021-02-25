@@ -110,9 +110,9 @@ define( 'DB_HOST', 'localhost' );<br>
 Setta wordpress come predefinita
 chown -R www-data:www-data /var/www/html/wordpress
 <hr><hr>
-docker system prune -fa
-docker build -t ciao .
-docker run -p 80:80 -p 443:443 -it --name ciao ciao
+docker system prune -fa<br>
+docker build -t ciao .<br>
+docker run -p 80:80 -p 443:443 -it --name ciao ciao<br>
 Running Dockerfile
  </body>
  </html>

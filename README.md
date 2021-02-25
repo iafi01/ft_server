@@ -109,6 +109,7 @@ define( 'DB_HOST', 'localhost' );<br>
 <hr>
 Setta wordpress come predefinita
 chown -R www-data:www-data /var/www/html/wordpress
-<img src="https://toppng.com/uploads/preview/page-divider-115499195474tftqasvei.png"/>
+<hr><hr>
+Running Dockerfile
  </body>
  </html>

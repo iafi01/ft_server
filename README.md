@@ -87,7 +87,19 @@ tar -xvzf latest.tar.gz
 cd wordpress <br>
 cp wp-config-sample.php wp-config.php
 <hr>
+mysql -u root -p
+<hr>
 vim wp-config.php
+<hr>
+CREATE DATABASE liafigli;
+<hr>
+CREATE USER 'liafigli'@'localhost' identified by 'liafigli';
+<hr>
+GRANT ALL PRIVILEGES ON liafigli.* TO 'liafigli'@'localhost';
+<hr>
+FLUSH PRIVILEGES;
+<hr>
+EXIT;
 <hr>
 MODIFICA:
 define( 'DB_NAME', 'liafigli' );<br>

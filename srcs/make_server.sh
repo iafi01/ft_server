@@ -28,8 +28,7 @@ wget https://wordpress.org/latest.tar.gz
 tar -xvzf latest.tar.gz
 rm latest.tar.gz
 cd wordpress
-rm /var/www/html/wordpress/wp-config.php
-cp /tmp/wp-config.php /var/www/html/wordpress/
+mv /tmp/wp-config.php /var/www/html/wordpress/wp-config.php
 #mysql -u root -p --skip-password
 echo "CREATE DATABASE liafigli;" | mysql -u root --skip-password
 echo "CREATE USER 'liafigli'@'localhost' identified by 'localhost';" | mysql -u root --skip-password
